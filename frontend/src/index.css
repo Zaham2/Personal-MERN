@@ -16,6 +16,11 @@ code {
 .about-text {
   color: red;
 }
+
+.purple-oval {
+border-radius: 700px;
+background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0.00) 100%);
+}
 /* 
 h1 {
   font-family: 'Poppins', sans-serif

@@ -11,8 +11,8 @@ const Projects = () => {
     }, [])
 
     return (
-        <div className='flex flex-col justify-center flex-wrap'>
-            <h1 className="m-auto text-4xl">Projects</h1>
+        <div className='flex flex-col justify-center align-middle h-screen m-auto'>
+            <h1 className="mx-auto text-4xl">Projects</h1>
             <p className="mx-auto">Learning web developemnt is so enjoyable.</p>
             <p className="mx-auto">Here are some of my projects.</p>
             <div className='flex justify-center flex-wrap' >{

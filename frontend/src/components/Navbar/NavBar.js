@@ -10,7 +10,7 @@ const NabvBar = () => {
             <div className="bg-purple-400 h-8">
                 <ul className='flex flex-row justify-end'>
                     <span className="mr-auto">
-                        <Logo className="" imgSrc="https://i.ibb.co/tZYPwJT/someimg.jpg" altText="someimg" />
+                        <Logo className="" imgSrc="https://i.ibb.co/Wk62Gvb/logo.webp" altText="someimg" />
                     </span>
                     <span className="flex flex-row align-bottom w-4/12 h-8 justify-center">
                         <li className="basis-1/4 px-2"><NavItem text="Home" onClick={() => navigate("/")} /></li>
