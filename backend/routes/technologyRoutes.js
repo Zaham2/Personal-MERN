@@ -1,10 +1,10 @@
 import express from 'express'
-import { getTechnologys, getTechnology, createTechnology, deleteTechnology } from '../controllers/technologyController.js'
+import { getTechnologies, getTechnology, createTechnology, deleteTechnology } from '../controllers/technologyController.js'
 
 const router = express.Router()
 
 router.route('/')
-    .get(getTechnologys)
+    .get(getTechnologies)
     .post(createTechnology)
 
 router.route('/:id')

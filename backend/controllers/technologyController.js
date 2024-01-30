@@ -1,6 +1,6 @@
 import prisma from '../lib/prisma.js';
 
-export async function getTechnologyies(req, res) {
+export async function getTechnologies(req, res) {
     const technologyies = await prisma.technology.findMany();
     res.json(technologyies);
 }

@@ -1,5 +1,5 @@
 import express from 'express'
-import { getCertifications, getCertifications, createCertification, deleteCertification } from '../controllers/certificationController.js'
+import { getCertifications, getCertification, createCertification, deleteCertification } from '../controllers/certificationController.js'
 
 const router = express.Router()
 
@@ -8,7 +8,7 @@ router.route('/')
     .post(createCertification)
 
 router.route('/:id')
-    .get(getCertifications)
+    .get(getCertification)
     .delete(deleteCertification)
 
 export default router
